@@ -1,0 +1,33 @@
+<ng-particles
+    [id]="id"
+    [options]="particlesOptions"
+    [particlesInit]="particlesInit"
+    (particlesLoaded)="particlesLoaded($event)"
+></ng-particles>
+<div class="contentGlobal">
+    <section class="sectionInfo">
+        <!--Titulo-->
+        <div class="contentTitle">
+            <p>{{infoData.title}}</p>
+        </div>
+        <!--Parrafo-->
+        <div class="contentParrafo">
+            <p>{{infoData.explanation}}</p>
+        </div>
+        <!--info copy-->
+        <section class="contentInfoCopy">
+            <div class="contentName">
+                <p>{{infoData.copyright}}</p>
+            </div>
+            <div class="contentDate">
+                <p>{{infoData.date}}</p>
+            </div>
+        </section>
+    </section>
+    <section class="sectionImg">
+        <div class="contentIMG">
+            <img src={{infoData.hdurl}} alt="" width="450">
+            <a href={{infoData.hdurl}} target="_blank">Open Image </a>
+        </div>
+    </section>
+</div>

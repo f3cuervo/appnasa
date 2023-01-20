@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trispace', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+body{
+    background-color: #000000;
+}
