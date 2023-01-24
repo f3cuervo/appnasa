@@ -9,4 +9,7 @@
     font-size: 13px;
     border-top: 1px solid #ffffff48;
     background-color: #000000 !important;
+  position: fixed;
+    bottom: 0;
+    width: 100%;
   }
